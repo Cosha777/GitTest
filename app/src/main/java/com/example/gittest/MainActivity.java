@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    TextView textView;
+    TextView textView, textView2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,8 +15,10 @@ public class MainActivity extends AppCompatActivity {
 
 
         textView = findViewById(R.id.text);
+        textView2 = findViewById(R.id.text2);
 
         textView.setText("the oll system ready");
+        textView2.setText("ready");
 
 
 
