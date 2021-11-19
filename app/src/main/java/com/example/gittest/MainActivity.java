@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.text);
 
-        textView.setText("Second");
+        textView.setText("the oll system ready");
 
 
 
